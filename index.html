@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> hai cayang </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffd0e4;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #fdf4f5;
+            margin-top: 50px;
+        }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.content {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #fdf4f5;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content img {
+    padding: 15px;
+    margin-top: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: auto;
+    display: flex;
+}
+
+.card p {
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fdf4f5;
+    color: #333;
+}
+        .caption {
+            background-color: #f686bd; /* Latar belakang hitam */
+            color: #fdf4f5; /* Warna teks putih */
+            font-size: 20px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>selamat malam sayang</h1>
+
+    
+    <div class="container">
+        <!-- Ganti dengan path video yang sudah kamu unggah -->
+        <div class="content">
+            <div class="card">
+              <img src="a.jpg" alt="Foto 1">
+              <p>gantian pake foto aku yaa</p>
+            </div>
+        </div>
+        <!-- Teks di bawah video -->
+        <div class="caption">
+            hallo good night cayang akuuu, hari ini pasti cape banget kan? sekarang waktuny istirahat ya sayang, lepasin 
+            semua lelah kamu, dan semoga ngebuat kamu jadi mimpi indah, aku disini, slalu sayang dan dukung kamu, 
+            bobo yg nyenyak ya, semoga besok bangun dengan semangat baru, jangan lupa baca doa sebelum bobo, 
+            sweet dreams cayangggg i love uu moreee
+
+                        <div class="caption">
+        </div>
+    </div>
+    <audio autoplay loop>
+        <source src="aaa.mp3" type=" audio/mpeg" />
+      </audio>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const audio = document.querySelector("audio");
+          const userInteraction = () => {
+            audio.play();
+            document.removeEventListener("click", userInteraction);
+          };
+          document.addEventListener("click", userInteraction);
+        });
+        </script>
+</body>
+</html>
